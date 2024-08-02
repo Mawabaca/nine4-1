@@ -26,7 +26,7 @@ export default function Main() {
       </div>
       <div className="container flex flex-col items-center justify-center py-8 mx-auto rounded-lg md:p-1 p-3">
         <img
-          className="object-cover object-center w-full mb-10 border-gray-200 dark:border-gray-900 g327 border rounded-lg shadow-md"
+          className="object-cover object-center w-full mb-10 border-gray-200 dark:border-gray-900 g327 pr-5 "
           alt="hero"
           src={KebchiImage}
         />
