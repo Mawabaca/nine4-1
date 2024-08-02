@@ -5,7 +5,7 @@ import { NextSeo } from "next-seo";
 
 export default function Contact() {
   return (
-    <div className="bg-black  text-white">
+    <div className="bg-white text-black">
       <NextSeo
         title="Contact: nine4"
         description="Contact Us!"
@@ -35,7 +35,7 @@ export default function Contact() {
               <div class="p-2 w-1/2">
                 <div class="relative">
                   <label
-                    for="name"
+                    htmlfor="name"
                     class="leading-7 text-sm text-white font-semibold"
                   >
                     Name
@@ -51,7 +51,7 @@ export default function Contact() {
               <div class="p-2 w-1/2">
                 <div class="relative">
                   <label
-                    for="email"
+                    htmlfor="email"
                     class="leading-7 text-sm text-white font-semibold"
                   >
                     Email
@@ -67,7 +67,7 @@ export default function Contact() {
               <div class="p-2 w-full">
                 <div class="relative">
                   <label
-                    for="message"
+                    htmlfor="message"
                     class="leading-7 text-sm text-white font-semibold"
                   >
                     Message

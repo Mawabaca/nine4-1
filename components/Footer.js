@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer class="text-white body-font">
+    <footer class="text-black body-font">
       <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
         <a class="flex title-font font-medium items-center md:justify-start justify-center" href="/">
           <span class="ml-3 text-xl">NINE4</span>
