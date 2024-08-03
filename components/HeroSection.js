@@ -10,13 +10,13 @@ export default function HeroSection() {
   return (
     <section className="bg-white py-12">
       <div className="container mx-auto text-center relative">
-        <div className="bg-purple-600 mx-auto" style={{ width: '1339px', height: '78px', opacity: 0.8 }}>
-          <h1 className={`${inknutAntiqua.className} text-xxxl font-bold text-white`} style={{ lineHeight: '78px' }}>
+        <div className="bg-purple-100 mx-auto ml-14 " style={{ width: '1087px', height: '78px' }}>
+          <h1 className={`${inknutAntiqua.className} text-xxxl font-bold text-white`}>
             Sacrifiez pour l'Aïd et soutenez une famille en Afrique.
           </h1>
         </div>
         <div className="relative inline-block mt-4">
-          <Image src="/images/imagemaroc21.png" alt="Faites le bien avec Kebchi" width={1417} height={590} />
+          <Image src="/images/imagemaroc21.png" alt="Faites le bien avec Kebchi" width={1180} height={590} />
         </div>
         <div className="mt-4 flex justify-center items-center">
           <div className="h-1 bg-purple-600 w-8 mr-2"></div>
