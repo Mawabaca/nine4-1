@@ -1,27 +1,14 @@
-import Head from "next/head";
-import Header from "../components/Header";
-import Main from "../components/Main";
-import Footer from "../components/Footer";
-import { NextSeo } from "next-seo";
+import Main from "../components/Main"
+import HeroSection from '../components/HeroSection'
+import OfferSection from '../components/OfferSection'
+
 
 export default function Home() {
   return (
     <div className="text-black bg-white">
-      <NextSeo
-        title="Home: nine4"
-        description="Welcome to nine4 homepage."
-        canonical="https://nine4-1.vercel.app/"
-        openGraph={{
-          url: "https://nine4-1.vercel.app/",
-        }}
-      />
-      <Head>
-        <title>Kebchi Maroc</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <Header />
+      <HeroSection />
+      <OfferSection />
       <Main />
-      <Footer />
     </div>
   );
 }
