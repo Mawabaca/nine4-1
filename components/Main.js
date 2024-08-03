@@ -2,32 +2,32 @@
 
 import CountUp from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
-import KebchiImage from '../img/imagemaroc21.png';
 import { Inknut_Antiqua } from 'next/font/google'
+import Image from "next/image";
 
 const inknutAntiqua = Inknut_Antiqua({
   subsets: ['latin'],
-  weight: ['400', '700'], 
+  weight: ['700'], 
 });
 
 export default function Main() {
   return (
     <section className="text-black body-font lg:pt-20">
-      <div className="container px-5 pt-32 mx-auto lg:px-4 lg:py-4">
-        <div className="flex flex-col w-full mb-2 text-left md:text-center bg-purple-100">
-          <h1 className="mb-2 text-6xl font-bold tracking-tighter text-white lg:text-8xl md:text-7xl">
-            <span>We are making </span>
-            <br className="hidden lg:block"></br>
-            Stunning websites
+       <div className="container px-5 pt-32 mx-auto lg:px-4 lg:py-4">
+        <div className={`flex flex-col w-full mb-2 text-left md:text-center bg-purple-100 ${inknutAntiqua.className}`}>
+          <h1 className="mb-2 text-xxxl font-bold tracking-tighter text-white ">
+              Sacrifiez pour l'Aïd et soutenez une famille en Afrique
           </h1>
           <br></br>
         </div>
       </div>
       <div className="container flex flex-col items-center justify-center py-8 mx-auto rounded-lg md:p-1 p-3">
-        <img
-          className="object-cover object-center w-full mb-10 border-gray-200 dark:border-gray-900 g327 pr-5 "
+        <Image
+          className="object-cover object-center w-full mb-10 border-gray-200 dark:border-gray-900"
           alt="hero"
-          src={KebchiImage}
+          src="/images/imagemaroc21.png"
+          width={800}
+          height={600}
         />
       </div>
       <section className="text-gray-600 body-font">
@@ -156,7 +156,6 @@ export default function Main() {
                     <img
                       alt="team"
                       className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                      src={KebchiImage}
                     ></img>
                     <div className="w-full">
                       <h2 className="title-font font-medium text-lg text-black">

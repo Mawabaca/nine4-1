@@ -1,6 +1,6 @@
 module.exports = {
   purge: ["./components/**/*.js", "./pages/**/*.js"],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: false,
   theme: {
     extend: {
       colors: {
@@ -18,7 +18,13 @@ module.exports = {
         purple: {
           100: "#874B94",
         },
-        
+      },
+      fontSize: {
+        'tiny': ['0.625rem', { lineHeight: '1rem' }], // 10px
+        'xxs': ['0.75rem', { lineHeight: '1rem' }],   // 12px
+        'xxl': ['1.75rem', { lineHeight: '2.25rem' }],   // 28px
+        'xxxl': ['2.25rem', { lineHeight: '4rem' }],   // 40px
+        'xxxxl': ['3.75rem', { lineHeight: '4.5rem' }], // 60px
       },
     },
   },
