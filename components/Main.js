@@ -3,25 +3,24 @@
 import CountUp from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
 import KebchiImage from '../img/imagemaroc21.png';
+import { Inknut_Antiqua } from 'next/font/google'
+
+const inknutAntiqua = Inknut_Antiqua({
+  subsets: ['latin'],
+  weight: ['400', '700'], 
+});
 
 export default function Main() {
   return (
     <section className="text-black body-font lg:pt-20">
       <div className="container px-5 pt-32 mx-auto lg:px-4 lg:py-4">
-        <div className="flex flex-col w-full mb-2 text-left md:text-center">
-          <h1 className="mb-2 text-6xl font-bold tracking-tighter text-black lg:text-8xl md:text-7xl">
+        <div className="flex flex-col w-full mb-2 text-left md:text-center bg-purple-100">
+          <h1 className="mb-2 text-6xl font-bold tracking-tighter text-white lg:text-8xl md:text-7xl">
             <span>We are making </span>
             <br className="hidden lg:block"></br>
             Stunning websites
           </h1>
           <br></br>
-          <p className="mx-auto text-xl font-normal leading-relaxed text-gray-600 dark:text-gray-300 lg:w-2/3">
-            nine4 is a free to use template website for websites made with{' '}
-            <a href="https://nextjs.org/" className="underline">
-              Next.js
-            </a>{' '}
-            and styled with Tailwind CSS
-          </p>
         </div>
       </div>
       <div className="container flex flex-col items-center justify-center py-8 mx-auto rounded-lg md:p-1 p-3">
