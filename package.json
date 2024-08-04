@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "node --openssl-legacy-provider ./node_modules/next/dist/bin/next dev",
-    "build": "node --openssl-legacy-provider ./node_modules/next/dist/bin/next build",
-    "start": "node --openssl-legacy-provider ./node_modules/next/dist/bin/next start"
+    "dev": "dev",
+    "build": "build",
+    "start": "start"
   },
   "dependencies": {
     "@babel/runtime": "^7.25.0",
