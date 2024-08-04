@@ -8,28 +8,28 @@ export default function ProcessSection() {
         <div className="flex justify-between items-center">
           <div className="flex flex-col items-center">
             <div className="relative w-20 h-20 mb-4">
-              <Image src="/images/step1.png" alt="Achetez votre mouton" layout="fill" objectFit="contain" />
+              <Image src="/images/PICTO-MOUTON-v3 1.png" alt="Achetez votre mouton" fill style={{ objectFit: 'contain' }} />
             </div>
             <h3 className="font-bold text-lg text-purple-600">Achetez Votre Mouton</h3>
             <p className="text-sm text-gray-600">Effectuer un paiement sécurisé.</p>
           </div>
           <div className="flex flex-col items-center">
             <div className="relative w-20 h-20 mb-4">
-              <Image src="/images/step2.png" alt="Kebchi Le Sacrifie" layout="fill" objectFit="contain" />
+              <Image src="/images/Group 18944.png" alt="Kebchi Le Sacrifie" fill style={{ objectFit: 'contain' }} />
             </div>
             <h3 className="font-bold text-lg text-purple-600">Kebchi Le Sacrifie</h3>
             <p className="text-sm text-gray-600">Le sacrifice du mouton a lieu dans les zones les plus reculées d'Afrique.</p>
           </div>
           <div className="flex flex-col items-center">
             <div className="relative w-20 h-20 mb-4">
-              <Image src="/images/step3.png" alt="Recevez Les Images" layout="fill" objectFit="contain" />
+              <Image src="/images/PICTO-MEDIA-b3 1.png" alt="Recevez Les Images" fill style={{ objectFit: 'contain' }} />
             </div>
             <h3 className="font-bold text-lg text-purple-600">Recevez Les Images</h3>
             <p className="text-sm text-gray-600">Kebchi vous envoie les vidéos de votre sacrifice en Afrique et les images de la distribution.</p>
           </div>
           <div className="flex flex-col items-center">
             <div className="relative w-20 h-20 mb-4">
-              <Image src="/images/step4.png" alt="Confirmation" layout="fill" objectFit="contain" />
+              <Image src="/images/confirmation (1) 1.png" alt="Confirmation" fill style={{ objectFit: 'contain' }} />
             </div>
             <h3 className="font-bold text-lg text-purple-600">Confirmation</h3>
             <p className="text-sm text-gray-600">Nous garantissons votre satisfaction.</p>
@@ -39,3 +39,4 @@ export default function ProcessSection() {
     </section>
   )
 }
+

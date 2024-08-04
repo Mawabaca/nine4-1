@@ -8,19 +8,19 @@ export default function CountriesSection() {
         <p className="mb-8">Voici les pays où vous pouvez réaliser votre sacrifice pour l'Aïd al-Adha :</p>
         <div className="flex justify-around items-center mb-8">
           <div className="flex flex-col items-center">
-            <Image src="/images/tanzania-flag.png" alt="Tanzanie" width={64} height={64} />
+            <Image src="/images/image mouton marocain 1.png" alt="Tanzanie" width={64} height={64} />
             <p className="mt-2">Tanzanie - تنزانيا</p>
           </div>
           <div className="flex flex-col items-center">
-            <Image src="" alt="Madagascar" width={64} height={64} />
+            <Image src="/images/placeholder.png" alt="Madagascar" width={64} height={64} />
             <p className="mt-2">Madagascar - مدغشقر</p>
           </div>
           <div className="flex flex-col items-center">
-            <Image src="" alt="Kenya" width={64} height={64} />
+            <Image src="/images/Group 18942.png" alt="Kenya" width={64} height={64} />
             <p className="mt-2">Kenya - كينيا</p>
           </div>
           <div className="flex flex-col items-center">
-            <Image src="" alt="Maroc" width={64} height={64} />
+            <Image src="/images/imagemaroc21.png" alt="Maroc" width={64} height={64} />
             <p className="mt-2">Maroc - المغرب</p>
           </div>
         </div>

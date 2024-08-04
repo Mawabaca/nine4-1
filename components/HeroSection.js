@@ -10,7 +10,7 @@ export default function HeroSection() {
   return (
     <section className="bg-white py-12">
       <div className="container mx-auto text-center relative">
-        <div className="bg-purple-100 mx-auto ml-14 " style={{ width: '1087px', height: '78px' }}>
+        <div className="bg-purple-100 mx-auto" style={{ width: '1087px', height: '78px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
           <h1 className={`${inknutAntiqua.className} text-xxxl font-bold text-white`}>
             Sacrifiez pour l'Aïd et soutenez une famille en Afrique.
           </h1>

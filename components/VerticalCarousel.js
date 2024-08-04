@@ -5,9 +5,9 @@ import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 
 const images = [
-  "/images/photo (11).png",
-  "/images/photo (14).png",
-  "/images/photo (36).png",
+  "/images/PICTO-MOUTON-v3 1.png",
+  "/images/PICTO-MOUTON-v3 1.png",
+  "/images/PICTO-MOUTON-v3 1.png",
   // Ajoute d'autres images si nécessaire
 ]
 

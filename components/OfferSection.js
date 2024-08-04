@@ -21,7 +21,7 @@ export default function OfferSection() {
             </ul>
           </div>
           <div className="md:w-1/3 bg-white p-4 rounded-lg shadow-lg text-center">
-            <Image src="/images/image.png" alt="Carte de l'Afrique" width={200} height={200} />
+            <Image src="" alt="Carte de l'Afrique" width={200} height={200} />
             <p className="text-4xl font-bold text-purple-600 mt-4">1800 dhs</p>
             <p className="text-lg mt-2">Le mouton en Afrique</p>
             <button className="mt-4 px-6 py-2 bg-purple-600 text-white rounded-full">Commandez Maintenant</button>
