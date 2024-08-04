@@ -15,13 +15,14 @@ export default function HeroSection() {
             Sacrifiez pour l'Aïd et soutenez une famille en Afrique.
           </h1>
         </div>
-        <div className="relative inline-block mt-4">
+        <div className="relative inline-block mt-4 mr-10">
           <Image src="/images/imagemaroc21.png" alt="Faites le bien avec Kebchi" width={1180} height={590} />
         </div>
         <div className="mt-4 flex justify-center items-center">
-          <div className="h-1 bg-purple-600 w-8 mr-2"></div>
-          <div className="h-1 bg-purple-600 w-2 mr-1"></div>
-          <div className="h-1 bg-purple-600 w-32"></div>
+          <div className="h-1 bg-purple-200 w-24 h-2 mr-2 rounded-lg"></div>
+          <div className="h-1 bg-purple-600 w-7 h-2 mr-1 rounded-lg"></div>
+          <div className="h-1 bg-purple-600 w-7 h-2 mr-1 rounded-lg"></div>
+          <div className="h-1 bg-purple-600 w-7 h-2 rounded-lg"></div>
         </div>
       </div>
     </section>
