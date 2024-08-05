@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Main from "../components/Main";
+import OurAction from "../components/OurAction";
 import HeadSection from '../components/HeadSection';
 import OfferSection from '../components/OfferSection';
 import ProcessSection from "../components/ProcessSection";
@@ -19,7 +19,7 @@ export default function Home() {
       <ProcessSection />
       <CountriesSection />
       <AboutSection />
-      <Main />
+      <OurAction />
     </div>
   );
 }

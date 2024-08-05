@@ -32,8 +32,15 @@ module.exports = {
         'xxxxl': ['3.75rem', { lineHeight: '4.5rem' }], // 60px
       },
       width: {
-        '30%': '30%',
-      }
+        '29%': '29.1%',
+      },
+      inset: {
+        '50px' : '50px',
+        '49px' : '86px',
+       },
+       maxWidth: {
+        '50': '50%',
+      }  
     },
   },
   variants: {
