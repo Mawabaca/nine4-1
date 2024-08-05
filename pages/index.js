@@ -14,7 +14,7 @@ export default function Home() {
         <meta name="description" content="Sacrifier pour l'Aïd et soutenez une famille en Afrique." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Headection />
+      <HeadSection />
       <OfferSection />
       <ProcessSection />
       <CountriesSection />
