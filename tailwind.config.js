@@ -33,6 +33,10 @@ module.exports = {
       },
       width: {
         '29%': '29.1%',
+        '186': '186px',
+      },
+      height:{
+        '136': '136px',
       },
       inset: {
         '50px' : '50px',
