@@ -18,7 +18,11 @@ module.exports = {
         purple: {
           100: "#874B94",
           200: "#2D0054",
+          300: "#9B64FF"
         },
+        palebrown: {
+          100: "#FFF9F3",
+        }
       },
       fontSize: {
         'tiny': ['0.625rem', { lineHeight: '1rem' }], // 10px
@@ -27,6 +31,9 @@ module.exports = {
         'xxxl': ['2rem', { lineHeight: '78px' }],
         'xxxxl': ['3.75rem', { lineHeight: '4.5rem' }], // 60px
       },
+      width: {
+        '30%': '30%',
+      }
     },
   },
   variants: {
