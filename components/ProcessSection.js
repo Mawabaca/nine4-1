@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function ProcessSection() {
   return (
     <section className="py-12 bg-white">
-      <div className="container mx-auto text-center">
+      <div className="container mx-auto text-center align-item">
         <h2 className="text-3xl font-bold text-purple-600 mb-6">PROCESSUS DE SACRIFICE EN AFRIQUE</h2>
         <div className="grid grid-cols-4 gap-8">
           {/* Étape 1 */}
@@ -21,7 +21,7 @@ export default function ProcessSection() {
             <div className="mb-4">
               <Image src="/images/PICTO-MOSQUEE.png" alt="Kebchi Le Sacrifie" width={61} height={84} />
             </div>
-            <div className="my-4 w-4 h-4 bg-purple-200 rounded-full"><div className="h-1 bg-purple-200 w-24 "></div></div>
+            <div className="my-4 w-4 h-4 bg-purple-200 rounded-full"></div>
             <h3 className="font-bold text-lg text-purple-600">Kebchi Le Sacrifie</h3>
             <p className="text-sm text-gray-600">Le sacrifice du mouton a lieu dans les zones les plus reculées d'Afrique.</p>
             <p className="text-sm text-gray-600">كبشي يقوم بالتضحية بخروفك</p>
